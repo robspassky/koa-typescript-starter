@@ -7,3 +7,8 @@ node_modules
 # history of node repl
 .node_repl_history
 
+# npm log
+npm-debug.log
+
+# compiled app file
+app.js
