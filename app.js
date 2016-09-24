@@ -1,10 +1,10 @@
-var koa = require('koa');
+var Koa = require('koa');
 
-var app = koa();
+const APP = new Koa();
 
-app.use(function *(){ 
+APP.use(function *(){ 
 	this.body = 'Hello world';
 });
 
-app.listen(3030);
+APP.listen(3030);
 
